@@ -1,0 +1,60 @@
+/* X-Pages Design System */
+
+/* ---Card styles --- */
+.xp-card {
+  position: relative;
+  border: var(--xp-card-border);
+  border-radius: var(--xp-card-border-radius);
+  box-shadow: var(--xp-card-box-shadow);
+  padding: var(--xp-card-padding);
+}
+
+.xp-card__header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--xp-card-heading-padding);
+  align-items: center;
+  border-bottom: var(--xp-card-heading-border-bottom-width) solid var(--xp-card-heading-border-bottom-color);
+  font-family: var(--xp-card-font-family);
+}
+
+.xp-card__header-heading {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+.xp-card__header-title {
+  color: var(--veeva-coal);
+  font-size: var(--xp-card-heading-font-size);
+  font-weight: var(--xp-card-heading-font-weight);
+}
+
+.xp-card__header-icon {
+}
+
+.xp-card__header-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.xp-card__header-title {
+  color: var(--veeva-coal);
+  font-size: var(--xp-card-heading-font-size);
+  font-weight: var(--xp-card-heading-font-weight);
+}
+
+.xp-card__header-subtitle {
+  color: var(--veeva-smoke);
+  font-size: var(--xp-card-subheading-font-size);
+  margin: 0.1rem 0 0 0;
+}
+
+.xp-card__header-end {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.xp-card__body {
+  padding: 1rem;
+}

@@ -1,0 +1,126 @@
+/* This is used to apply global styles for the Vue app and/or override Bootstrap styles */
+
+/* ----------- Global styles ----------- */
+:host {
+	/* DEFAULT STYLES */
+	font-size: 1rem;
+	color: var(--veeva-coal);
+
+	/* Boostrap overrides */
+	--bs-body-font-size: 12px;
+	--bs-heading-color: #333;
+
+	/* X-Pages styles defaults */
+  --xp-filter-height: 32px;
+  --xp-border-gray: #cccccc;
+  --xp-filter-icon-default: #7c7c7c;
+  --xp-card-border-color: #dddbda;
+  --xp-card-heading-font-weight: 700;
+  --xp-card-heading-font-size: 1rem;
+  --xp-card-subheading-font-size: 0.8rem;
+  --xp-card-subheading-font-weight: 400;
+  --xp-card-header-spacing-block: 0.75rem;
+  --xp-card-header-spacing-inline: 1rem;
+  --xp-link-color: #0176d3;
+
+	/* Vault CRM colors */
+	--veeva-mist: #cdcdcd;
+	--veeva-coal: #333;
+	--veeva-smoke: #999;
+	--veeva-sapphire: #004c93;
+	--veeva-imperial-blue: #007aff;
+	--veeva-silver-dark: #ccc;
+
+	/* Product's color palette */
+	/* Green */
+	--veeva-green-100: #D6E2CD;
+	--veeva-green-200: #ADC49C;
+	--veeva-green-300: #84A76A;
+	--veeva-green-400: #5B8939;
+	--veeva-green-500-base: #326c07;
+	--veeva-green-600: #285606;
+	--veeva-green-700: #1E4004;
+	--veeva-green-800: #142B03;
+	--veeva-green-900: #0A1601;
+	/* Orange */
+	--veeva-orange-100: #FFECD0;
+	--veeva-orange-200: #FFD8A2;
+	--veeva-orange-300: #FFC573;
+	--veeva-orange-400: #FFB145;
+	--veeva-orange-500-base: #ff9e16;
+	--veeva-orange-600: #CC7E12;
+	--veeva-orange-700: #995F0D;
+	--veeva-orange-800: #663F09;
+	--veeva-orange-900: #332004;
+	/* Red */
+	--veeva-red-100: #F3CECC;
+	--veeva-red-200: #E79E9A;
+	--veeva-red-300: #DB6D67;
+	--veeva-red-400: #CF3D35;
+	--veeva-red-500-base: #c30c02;
+	--veeva-red-600: #9C0A02;
+	--veeva-red-700: #750701;
+	--veeva-red-800: #4E0501;
+	--veeva-red-900: #270200;
+	/* Blue */
+	--veeva-blue-100: #CCDBE9;
+	--veeva-blue-200: #99B7D4;
+	--veeva-blue-300: #6694BE;
+	--veeva-blue-400: #3370A9;
+	--veeva-blue-500-base: #004c93;
+	--veeva-blue-600: #003D76;
+	--veeva-blue-700: #002E58;
+	--veeva-blue-800: #001E3B;
+	--veeva-blue-900: #000F1D;
+	/* Yellow */
+	--veeva-yellow-100: #FFF5CC;
+	--veeva-yellow-200: #FFEB99;
+	--veeva-yellow-300: #FFE066;
+	--veeva-yellow-400: #ffcc00;
+	--veeva-yellow-500: #FFD633;
+	--veeva-yellow-500-base: #ffcc00;
+	--veeva-yellow-600: #CCA300;
+	--veeva-yellow-700: #997A00;
+	--veeva-yellow-800: #665200;
+	--veeva-yellow-900: #332900;
+	/* Purple */
+	--veeva-purple-100: #DBD6E9;
+	--veeva-purple-200: #B7ADD2;
+	--veeva-purple-300: #9383BC;
+	--veeva-purple-400: #6F5AA5;
+	--veeva-purple-500-base: #4b318f;
+	--veeva-purple-600: #3C2772;
+	--veeva-purple-700: #2D1D56;
+	--veeva-purple-800: #1E1439;
+	--veeva-purple-900: #0F0A1D;
+	/* Pink */
+	--veeva-pink-100: #FADBE1;
+	--veeva-pink-200: #F5B8C3;
+	--veeva-pink-300: #F094A5;
+	--veeva-pink-400: #EB7187;
+	--veeva-pink-500-base: #e64d69;
+	--veeva-pink-600: #B83E54;
+	--veeva-pink-700: #8A2E3F;
+	--veeva-pink-800: #5C1F2A;
+	--veeva-pink-900: #2E0F15;
+	/* Brown */
+	--veeva-brown-100: #E7E0D2;
+	--veeva-brown-200: #CFC1A5;
+	--veeva-brown-300: #B7A177;
+	--veeva-brown-400: #9F824A;
+	--veeva-brown-500-base: #87631d;
+	--veeva-brown-600: #6C4F17;
+	--veeva-brown-700: #513B11;
+	--veeva-brown-800: #36280C;
+	--veeva-brown-900: #1B1406;
+	/* Gray */
+	--veeva-gray-100: #EBEBEB;
+	--veeva-gray-200: #D6D6D6;
+	--veeva-gray-300: #C2C2C2;
+	--veeva-gray-400: #ADADAD;
+	--veeva-gray-500-base: #999999;
+	--veeva-gray-600: #7A7A7A;
+	--veeva-gray-700: #5C5C5C;
+	--veeva-gray-800: #3D3D3D;
+	--veeva-gray-900: #1F1F1F;
+}

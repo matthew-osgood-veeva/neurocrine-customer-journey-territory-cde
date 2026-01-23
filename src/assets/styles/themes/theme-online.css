@@ -1,0 +1,21 @@
+/* --- Online Theme --- */
+
+/* --- Theme variables --- */
+.theme-online {
+  --xp-card-border-radius: 0.25rem;
+  --xp-card-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  --xp-card-border: 1px solid #dddbda;
+  --xp-card-heading-padding: 7px;
+  --xp-card-heading-font-weight: 400;
+  --xp-card-heading-font-size: 1rem;
+  --xp-card-heading-line-height: 1.25;
+  --xp-card-heading-title-color: var(--veeva-coal);
+  --xp-card-heading-border-bottom-color: var(--veeva-silver-dark);
+  --xp-card-heading-border-bottom-width: 1px;
+  --xp-card-font-family: Arial;
+  --xp-card-subheading-font-size: 0.85rem;
+}
+
+.theme-online {
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}

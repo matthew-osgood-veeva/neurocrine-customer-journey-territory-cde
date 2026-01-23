@@ -1,0 +1,20 @@
+/* --- Mobile Theme --- */
+
+/* --- Theme variables --- */
+.theme-mobile {
+  --xp-card-border-radius: 1rem;
+  --xp-card-box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.15);
+  --xp-card-border: none;
+  --xp-card-heading-padding: var(--xp-card-header-spacing-block) var(--xp-card-header-spacing-inline);
+  --xp-card-heading-font-weight: 700;
+  --xp-card-heading-font-size: 1rem;
+  --xp-card-heading-line-height: 1.25;
+  --xp-card-heading-title-color: var(--veeva-coal);
+  --xp-card-heading-border-bottom-color: var(--veeva-mist);
+  --xp-card-heading-border-bottom-width: 0.031rem;
+  --xp-card-subheading-font-size: .9rem;
+}
+
+.theme-mobile {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
