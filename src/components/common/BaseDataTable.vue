@@ -211,7 +211,7 @@ import {
 	faSortDown,
 	faSort,
 } from "@fortawesome/free-solid-svg-icons";
-import { viewRecord } from "@/lib/myInsights/query";
+import { viewRecord } from "@/lib/x-pages/query";
 import { useAppStore } from "@/store/modules/appStore";
 
 const store = useAppStore();
